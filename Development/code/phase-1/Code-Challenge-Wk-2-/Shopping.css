@@ -1,5 +1,6 @@
 body{
   background-color: rgb(247, 187, 187);
+  color: #d42323;
   font-family: monospace;
   padding: 10px;
   margin: 5px;
@@ -7,12 +8,14 @@ body{
 h1{
   text-align: center;
   color: #d42323;
+  font-size: 30px;
   font-style: oblique;
 }
 
 form{
   color: #d42323;
   padding-left: 10px;
+  border: #d42323;
   margin-right: 20px;
  }
 
@@ -22,6 +25,20 @@ input[type=text]{
   padding: auto;
 }
 
-#addToCart {
+#addToCart{
+background-color: rgb(247, 187, 187);
+color: #d42323;
+}
+
+.list{
+  color: #d42323;
+  font-size: 22px;
+  padding: 0 !important;
+  width: 500px;
+  border: 1px solid color(#d42323);
+}
+
+.list li{
+list-style: none;
 background-color: rgb(247, 187, 187);
 }
