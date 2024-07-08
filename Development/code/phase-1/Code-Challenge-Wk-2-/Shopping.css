@@ -1,20 +1,27 @@
 body{
-  background-color: hsl(0, 79%, 85%);
+  background-color: rgb(247, 187, 187);
+  font-family: monospace;
   padding: 10px;
   margin: 5px;
 }
 h1{
   text-align: center;
   color: #d42323;
+  font-style: oblique;
 }
 
 form{
   color: #d42323;
   padding-left: 10px;
   margin-right: 20px;
-}
+ }
 
-input{
+input[type=text]{
+  background-color: rgb(247, 187, 187);
   color: #d42323;
   padding: auto;
+}
+
+#addToCart {
+background-color: rgb(247, 187, 187);
 }
