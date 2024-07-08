@@ -5,5 +5,16 @@ body{
 }
 h1{
   text-align: center;
-  color: #b64e4e;
+  color: #d42323;
+}
+
+form{
+  color: #d42323;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+input{
+  color: #d42323;
+  padding: auto;
 }

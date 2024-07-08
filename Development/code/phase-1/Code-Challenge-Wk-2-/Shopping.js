@@ -1,0 +1,7 @@
+//create a purchase function
+
+function purchaseItems()
+
+let button = document.querySelector("button");
+button.addEventListener("click", purchase);
+
