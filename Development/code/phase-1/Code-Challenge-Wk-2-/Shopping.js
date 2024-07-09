@@ -9,6 +9,7 @@ $function(){
 
     item=$('<li><input type="checkbox" name="item">'+ value + '<a href="#"remove</a></li>'),
     
-    list
+    list = (need)? $('ul').first(): $('ul').last();
+    
   }
 }
