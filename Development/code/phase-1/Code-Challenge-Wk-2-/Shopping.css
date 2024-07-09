@@ -25,9 +25,14 @@ input[type=text]{
   padding: auto;
 }
 
-#addToCart{
+#addNeed{
 background-color: rgb(247, 187, 187);
 color: #d42323;
+}
+
+#clearList{
+  background-color: rgb(247, 187, 187);
+  color: #d42323;
 }
 
 .list{
