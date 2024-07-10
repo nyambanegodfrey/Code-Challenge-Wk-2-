@@ -8,14 +8,15 @@
 </head>
 <body>
   
-  <h1> SHOPPING LIST</h1>
-  
+  <h1>SHOPPING LIST</h1>
+  <h4>Shopping LIst Items</h4>
+  <ul id="itemsContainer">
+  </ul>
   <form action="Add" method="get">
-      <label for="">Item</label>
-      <input type="text" name="Item">
-      <input id="addNeed" type="Submit" value="Needed">
-      <input id="clearList" type="Submit" value="Clear List">
-      
+      <label for="name">Item Name</label>
+      <input type="text" placeholder="Enter item name">
+     <button type="submit">Add Item</button>
+            
   </form>
   <ul class="List">
     <li><input type="checkbox" name="Item">Dairy Milk</li>
