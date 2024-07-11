@@ -15,7 +15,7 @@ h1{
 
 form{
   color: #d42323;
-  padding-left: 10px;
+  padding-block-end: 10px;
   border: #d42323;
   margin-right: 20px;
  }
