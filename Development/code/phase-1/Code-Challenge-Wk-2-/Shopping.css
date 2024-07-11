@@ -13,6 +13,14 @@ h1{
   font-style: oblique;
 }
 
+button{
+  background-color: rgb(247, 187, 187);
+  color: #d42323;
+}
+
+input{
+  color: #d42323;
+}
 form{
   color: #d42323;
   padding-block-end: 10px;
